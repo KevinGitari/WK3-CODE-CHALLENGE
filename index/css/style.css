@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://www.google.com/imgres?q=theatre%20background&imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F960810016%2Fvector%2Fcinema-hall.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DqtzmlX6GLPYdekq5sdu52GtEt41nBgerRtdNTo79bE0%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fmovie-theater-background&docid=MBP2KsUUhD2GEM&tbnid=5oKicl4w93fstM&vet=12ahUKEwih1bzKx6eHAxXRRPEDHdZuC9sQM3oFCIYBEAA..i&w=612&h=428&hcb=2&ved=2ahUKEwih1bzKx6eHAxXRRPEDHdZuC9sQM3oFCIYBEAA");
+    background: repeat no-repeat;
+    background :var(--text-color);
+    color: var(--bg-color);
+}
+
+header{
+    position: fixed;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background: var(--main-color);
+    }
+
+ h2{
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+ }  
+
+ .Button{
+padding: 0.7rem 1.4rem;
+background: var(--main-color);
+color: var(--bg-color);
+font-weight: 400;
+border-radius: 0.5rem;
+ }
+
+ .Button:hover{
+background: #fa1216;
+
+ }
+ 
+
+   
